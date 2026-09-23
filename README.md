@@ -1,10 +1,9 @@
-# Meridian Orders API — Take-home
+# Phyllo-meridian_product-analyst_assignment
 
-Product Analyst Intern take-home. I went through the docs and the three
+I went through the docs and the three
 captured responses and looked for places where the two don't agree. Files:
 `API_DOCS.md`, `responses/`, `ticket.md`.
 
----
 
 ## Task 1 — What doesn't match
 
@@ -56,7 +55,6 @@ in a payments integration, and it looks like the reason behind the customer's
 ticket. #3 is a close second, but you can catch that by recomputing. You can't
 catch #2 unless you know the rule — and the docs give the wrong rule.
 
----
 
 ## Task 2 — Total revenue
 
@@ -84,7 +82,6 @@ confirms it, and how are refunds meant to be counted? Without those I can't
 reconcile to the dashboard — which, from the ticket, is exactly the problem the
 customer is hitting.
 
----
 
 ## Task 3a — Reply to Priya
 
@@ -104,7 +101,6 @@ customer is hitting.
 >
 > Sorry for the runaround. We're on it.
 
----
 
 ## Task 3b — Bug report
 
@@ -133,7 +129,5 @@ customer is hitting.
 > **Fix:** Return every monetary field as an integer in the smallest unit, and
 > add a test asserting integer output and that `total = subtotal + tax + shipping`.
 
----
 
-*How I did it: I read the docs and the three response files by hand, checking
-each documented claim against the data. No script.*
+
